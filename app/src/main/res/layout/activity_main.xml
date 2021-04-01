@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/edt_alas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alas" />
+
+        <EditText
+            android:id="@+id/edt_tinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tinggi"/>
+
+        <Button
+            android:id="@+id/btn_hitung_luas"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Hitung"/>
+
+        <TextView
+            android:id="@+id/tv_hasilLuas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_panjang"
+            android:hint="Panjang"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_Lebar"
+            android:hint="Lebar"/>
+
+        <Button
+            android:id="@+id/btn_hitung_keliling"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Hitung"/>
+
+        <TextView
+            android:id="@+id/tv_hasilKeliling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Hasil"
+            android:textSize="30sp"/>
+
+            
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
